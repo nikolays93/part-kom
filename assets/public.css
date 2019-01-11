@@ -1,0 +1,40 @@
+.result table {
+    width: 100%;
+}
+/*.result table tr:nth-child(odd) td {
+    background-color: #ccc;
+}*/
+.order h4 {
+    margin-top: 0;
+}
+.order__field {
+    width: 100%;
+    padding: 5px 0;
+    clear: both;
+}
+/*.order__field input {
+    width: 100%;
+}
+.order__field input[type="submit"] {
+    width: auto;
+}*/
+.order__field textarea {
+    width: 100%;
+    resize: vertical;
+}
+[name="user-name"],
+[name="user-email"],
+[name="user-phone"] {
+    float: right;
+    width: 65%;
+}
+
+#search_parts table {
+    margin-top: 10px;
+}
+.order__submit {
+    margin-bottom: 10px;
+}
+#result_mesage p {
+    margin-bottom: 5px;
+}
